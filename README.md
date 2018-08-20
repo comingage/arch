@@ -66,12 +66,10 @@ passwd USER
 visudo #Unconmment %wheel ALL=(ALL) ALL</pre>
 20. Audio/Graphics
 <pre>sudo pacman -S pulseaudio pulseaudio-alsa</pre>
-<pre>sudo pacman -S mesa vulkan-intel</pre>
-<pre>sudo pacman -S xorg xorg-xinit
-sudo pacman -S plasma-desktop konsole dophin firefox kate sddm
-sudo systemctl enable sddm</pre>
+<pre>sudo pacman -S nvidia nvidia-utils nvidia-settings</pre>
+<pre>sudo pacman -S gnome gnome-extra#use only needed</pre>
 21. Additional settings
-<pre>sudo pacman -S adobe-source-sans-pro-fonts aspell-en enchant gst-libav gst-plugins-good hunspell icedtea-web jre8-openjdk languagetool libmythes mythes-en pkgstats ttf-anonymous-pro ttf-bitstream-vera ttf-dejavu ttf-droid ttf-gentium ttf-liberation ttf-ubuntu-font-family ufw breeze-gtk breeze-kde4 kde-gtk-config  kdeplasma-addons plasma-nm plasma-pa ark kinfocenter ktorrent sddm-kcm bluez bluez-utils bluedevil gimp libreoffice-fresh okular vlc redshift bash-completion git</pre>
+<pre>sudo pacman -S icedtea-web jre8-openjdk ufw gimp libreoffice-fresh vlc redshift bash-completion git</pre>
 <pre>sudo ufw enable
 sudo ufw allow ssh
 sudo ufw status verbose
